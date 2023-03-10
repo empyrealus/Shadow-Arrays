@@ -2,6 +2,17 @@
     10 -> needle
     10 9 9 9 11 3 4 1 -> array
     
+    # Returns 10
+   
+    or
+    
+    11 -> needle
+    11 9 8 9 10 2 3 1 -> array
+    
+    # The second case is unique because we tell the system we are looking for the needle "11" despite the algorithim being built for returning
+    # the second largest value.
+    # Despite the needle, we still get 10, as intended.
+    
     Shadow is created, array is sorted, cleaned, and then criteria is searched for.
 */
 function getSecondLargest(nums) {
