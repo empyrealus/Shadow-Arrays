@@ -1,4 +1,7 @@
-
+/* Test with
+    10 -> needle
+    10 9 11 9 8 3 4 1 -> array
+*/
 function getSecondLargest(nums) {
     let arr_start = 0, final_value, occurence = 0;
     const init = () => {(!nums.sort()) ? null : (function () {
