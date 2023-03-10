@@ -1,6 +1,8 @@
 /* Test with
     10 -> needle
     10 9 11 9 8 3 4 1 -> array
+    
+    Shadow is created, array is sorted, cleaned, and then criteria is searched for.
 */
 function getSecondLargest(nums) {
     let arr_start = 0, final_value, occurence = 0;
