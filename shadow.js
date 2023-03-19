@@ -24,7 +24,7 @@ Test with
     In parrallel this allows us to maintain two states of data simultaneously by creating a shadow. We then faciliate a method similar to Quantum
     Computings' superposition (by instantiation of the shadow) alloting us the possibility to perform data mutation in multiple states, sequentially.
     
-    We may version the main array using the shadow, completely overwrite it, or perform any other number of activities. 
+    We may version the main array using the shadow, completely overwrite it, or perform any other number of activities on the main array or shadow.
     
     Definition
     'Superposition' in Quantum computing: 
