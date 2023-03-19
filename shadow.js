@@ -1,4 +1,6 @@
-/* Test with
+/* 
+Time complexity: https://iq.opengenus.org/time-complexity-of-array/
+Test with
     10 -> needle
     10 9 9 9 11 3 4 1 -> array
     
