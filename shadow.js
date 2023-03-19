@@ -26,6 +26,9 @@ Test with
     
     We may version the main array using the shadow, completely overwrite it, or perform any other number of activities on the main array or shadow.
     
+    E.g. I could run the operation to cacluate 12x(n) n > 100 and at the exact same time run 12x(n) n < 100, processing both potetnial outcomes to my
+         desired n or up to my desired n.
+    
     Definition
     'Superposition' in Quantum computing: 
      when a combonation of 1's and 0's exist simultaneously to perform a multitude of calculations prior to the collapse of a superposition.
