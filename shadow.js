@@ -21,10 +21,14 @@ Test with
     
     The shadow is created, the array is sorted, cleaned, and then criteria is searched for.
     
-    In parrallel this allows us to maintain two states of data simultaneously by creating a shadow, we can create a new instance with the shadow,
-    continue to operate on the shadow or make version changes to the main array, using a shadow. A shadow array here is similar to the concept of
-    'superposition' in Quantum computing (when a combonation of 1's and 0's exist simultaneously to perform a multitude of calculations within each 
-    prior to the superpositions collapse).
+    In parrallel this allows us to maintain two states of data simultaneously by creating a shadow. We then faciliate a method similar to Quantum
+    Computings' superposition (by instantiation of the shadow) alloting us the possibility to perform data mutation in multiple states, sequentially.
+    
+    We may version the main array using the shadow, completely overwrite it, or perform any other number of activities. 
+    
+    Definition
+    'Superposition' in Quantum computing: 
+     when a combonation of 1's and 0's exist simultaneously to perform a multitude of calculations prior to the collapse of a superposition.
 */
 function getSecondLargest(nums) {
     let arr_start = 0, final_value, occurence = 0;
