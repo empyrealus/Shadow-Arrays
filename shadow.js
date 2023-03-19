@@ -1,5 +1,5 @@
 /* 
-Get an understanding of time complexity for shadow arrays here: https://iq.opengenus.org/time-complexity-of-array/
+Gain an understanding of time complexity for shadow arrays here: https://iq.opengenus.org/time-complexity-of-array/
 Test with
     10 -> needle
     10 9 9 9 11 3 4 1 -> array
